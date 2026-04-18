@@ -1,5 +1,3 @@
-# task_9.py - JSON сериализация и десериализация без библиотек
-
 def serialize(obj, indent=None, level=0):
     if obj is None:
         return 'null'
